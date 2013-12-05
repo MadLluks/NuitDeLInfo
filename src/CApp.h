@@ -12,6 +12,7 @@ class CApp {
         SDL_Window* gWindow;
         SDL_Renderer* gRenderer;
         SDL_Texture* gTexture;
+        SDL_Texture* gTexture2;
  
     public:
         CApp();
