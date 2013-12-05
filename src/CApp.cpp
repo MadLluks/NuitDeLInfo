@@ -38,7 +38,7 @@ SDL_Texture* CApp::loadTexture(std::string path){
 
 bool CApp::loadMedia() {
 	gTexture = loadTexture("test.jpg");
-	if( gTexture == NULL ) {
+	if(gTexture == NULL) {
 		return false;
 	}
 	return true;
